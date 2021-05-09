@@ -4,6 +4,6 @@ def getConnection():
     db = pysql.connect( user='root',
                         password='',
                         host='localhost',
-                        port=1234 )
+                        port=3306 )
     
     return db
